@@ -59,7 +59,8 @@ def over?(board)
 end
     
 def winner(board) 
-  tokens = ["X","O"]
+ if won?(board)
+   board
   end
 end
       
